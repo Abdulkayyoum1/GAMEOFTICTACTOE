@@ -1,0 +1,17 @@
+{
+  "name": "tris-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "nodemon server/index.js localhost 8080"
+  },
+  "dependencies": {
+    "express": "4.16.4",
+    "socket.io": "2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
